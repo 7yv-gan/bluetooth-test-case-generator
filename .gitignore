@@ -1,0 +1,30 @@
+# ===== Python 缓存 =====
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# ===== 脚本运行生成的测试报告 =====
+*.csv
+*.md
+# 例外：核心文档必须保留（! 表示取反，不忽略）
+!SKILL.md
+!references/*.md
+
+# ===== Python 虚拟环境 =====
+venv/
+env/
+.venv/
+
+# ===== IDE 配置 =====
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# ===== 日志 =====
+*.log
+
+# ===== 系统文件 =====
+.DS_Store
+Thumbs.db
